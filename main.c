@@ -1,1 +1,5 @@
 #include "class/linkList.h"
+#include "class/stack.h"
+#include "class/graph.h"
+#include "class/element.h"
+#include "class/calculator.h"
