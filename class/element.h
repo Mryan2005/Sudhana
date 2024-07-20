@@ -14,6 +14,14 @@ typedef struct {
     char *tags[20];
 } item;
 
+typedef struct CostCount {
+    double price;
+    double cost;
+    double deltaCost;
+    int mode    // 0: with Tags, 1: not with tags
+    int frequency   // 0: every day, 1: every week, 2: every month, 3: every year
+} CostCount;
+
 char *createACharSpace(int canEmpty) {
     char *str = (char*)malloc(sizeof(char)*1024);
     gets(str);
