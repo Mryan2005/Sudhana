@@ -7,7 +7,4 @@
 #include <unistd.h>
 #ENDIF
 #include "linkList.h"
-
-
-
-void 
+#include "element.h"
