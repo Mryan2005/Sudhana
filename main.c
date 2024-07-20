@@ -3,3 +3,5 @@
 #include "class/graph.h"
 #include "class/element.h"
 #include "class/calculator.h"
+#include "class/fileLoader.h"
+#include "class/logger.h"
