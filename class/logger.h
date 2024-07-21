@@ -6,7 +6,7 @@
 
 File openAFile() {
     File *fp = fopen("./log/log.log", "a");
-    if(!fp) fp = fopen("log.log", "w");
+    if(!fp) fp = fopen("./log/log.log", "w");
     return fp;
 }
 
