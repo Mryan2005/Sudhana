@@ -5,7 +5,7 @@
 #include <time.h>
 
 File openAFile() {
-    File *fp = fopen("log.log", "a");
+    File *fp = fopen("./log/log.log", "a");
     if(!fp) fp = fopen("log.log", "w");
     return fp;
 }
