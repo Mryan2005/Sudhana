@@ -1,7 +1,8 @@
-#include "class/linkList.h"
-#include "class/stack.h"
-#include "class/graph.h"
-#include "class/element.h"
-#include "class/calculator.h"
-#include "class/fileLoader.h"
-#include "class/logger.h"
+#include "includes.h"
+
+int main(void)
+{
+    int a = 0;
+    printf("Hello, World!\n");
+    return a;
+}

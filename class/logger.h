@@ -2,4 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <time.h>
+
+typedef struct {
+    char *log;
+    char *time;
+} Log;
